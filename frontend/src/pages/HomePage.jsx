@@ -7,7 +7,7 @@ import { initializeContract, checkIsIssuer } from '../utils/web3';
 import '../styles/HomePage.css';
 
 const HomePage = () => {
-  const [contractAddress, setContractAddress] = useState('');
+  const [contractAddress, setContractAddress] = useState('0x8Dade3E51a55081855C812f2ba0B6a860714d968');
   const [isContractSet, setIsContractSet] = useState(false);
   const [walletInfo, setWalletInfo] = useState(null);
   const [isIssuer, setIsIssuer] = useState(false);
